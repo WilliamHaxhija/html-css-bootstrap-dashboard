@@ -13,88 +13,116 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-auto">
-                    <div class="ms-logo">
-                        <img src="./img/mobile-logo.png" alt="logo">
+    <div class="ms-wrapper">
+        <header class="bg-light">
+            <div class="container-fluid p-2">
+                <div class="row align-items-center ms-bg-header-row p-1">
+                    <div class="col-auto">
+                        <div class="ms-logo">
+                            <img class="d-none d-lg-inline-block" src="./img/logo.svg" alt="logo">
+                            <img class="d-lg-none" src="./img/mobile-logo.png" alt="logo">
+                        </div>
                     </div>
-                </div>
-                <div class="col d-flex">
-                    <div>
+                    <div class="col ms-col-size d-flex align-items-center ms-bg-search rounded-2">
                         <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Prova a cercare: Lezioni di Laravel" class="form-control ms-bg-search ms-search-size">
                     </div>
-                    <input type="text" placeholder="Prova a cercare: Lezioni di Laravel" class="form-control" >
-                </div>
-                <div class="col-auto">
-                    <i class="fa-solid fa-bell"></i>
+                    <div class="col-auto d-flex align-items-center ms-2">
+                        <div class="ms-header-icons me-3 d-none d-lg-inline">
+                            <i class="fa-solid fa-list-ul"></i>
+                        </div>
+                        <div class="ms-header-icons me-3 d-none d-lg-inline">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </div>
+                        <div class="ms-header-icons me-3 d-none d-lg-inline">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <div class="dropdown">
+                            <i class="fa-solid fa-bell dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="ms-wrapper d-flex">
-            <aside>
-                <div class="container">
-                    <div class="row flex-column">
-                        <div class="col">
-                            <i class="fa-solid fa-house"></i>
-                        </div>
-                        <div class="col">
-                            <i class="fa-solid fa-chart-simple"></i>
-                        </div>
-                        <div class="col">
-                            <i class="fa-solid fa-signal"></i>
-                        </div>
-                        <div class="col">
-                            <i class="fa-solid fa-gear"></i>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-            <div class="ms-wrapper">
-                <section>
+        </header>
+        <main>
+            <div class="container-fluid d-flex">
+                <aside>
                     <div class="container">
-                        <div class="row">
+                        <div class="row flex-column">
                             <div class="col">
-                                <h2>boolean</h2>
+                                <i class="fa-solid fa-house"></i>
                             </div>
                             <div class="col">
-                                <p>Studenti online negli ultimi 30 minuti</p>
-                                <h2>125</h2>
+                                <i class="fa-solid fa-chart-simple"></i>
                             </div>
                             <div class="col">
-                                <p>Nuovo Studente</p>
-                                <button></button>
+                                <i class="fa-solid fa-signal"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fa-solid fa-gear"></i>
                             </div>
                         </div>
                     </div>
-                </section>
-                <section>
-                    <div class="container d-flex">
-                        <div class="row flex-column">
-                            <div class="col">
-                                <div class="card"></div>
-                            </div>
-                            <div class="col">
-                                <div class="card"></div>
+                </aside>
+                <div class="ms-wrapper-sections">
+                    <section>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h2>boolean</h2>
+                                </div>
+                                <div class="col">
+                                    <p>Studenti online negli ultimi 30 minuti</p>
+                                    <h2>125</h2>
+                                </div>
+                                <div class="col">
+                                    <p>Nuovo Studente</p>
+                                    <button></button>
+                                </div>
                             </div>
                         </div>
-                        <div class="row flex-column">
-                            <div class="col">
-                                <div class="card"></div>
+                    </section>
+                    <section>
+                        <div class="container d-flex">
+                            <div class="row flex-column">
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header">Ciao</div>
+                                        <div class="card-body"></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header">Ciao</div>
+                                        <div class="card-body"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col">
-                                <div class="card"></div>
+                            <div class="row flex-column">
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header">Ciao</div>
+                                        <div class="card-body"></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-header">Ciao</div>
+                                        <div class="card-body"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
             </div>
-        </div>
-    </main>
-
+        </main>
+    </div>
 
     <!-- Bootsrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

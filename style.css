@@ -1,9 +1,29 @@
-.ms-logo img{
+.ms-wrapper {
+    height: 100vh;
+}
+
+.ms-bg-header-row {
+    background-color: white;
+}
+
+.ms-logo img:last-child {
     max-width: 3rem;
 }
 
-.main {
-    height: calc(100vh - 3rem);
+.ms-col-size {
+    height: 40%;
+}
+
+.ms-bg-search {
+    background-color: #e5e5e5;
+}
+
+.ms-search-size {
+    max-height: 80%;
+}
+
+.fa-bell {
+    color: #ff8f00;
 }
 
 aside {
