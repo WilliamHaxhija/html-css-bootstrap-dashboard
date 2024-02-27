@@ -1,0 +1,11 @@
+.ms-logo img{
+    max-width: 3rem;
+}
+
+.main {
+    height: calc(100vh - 3rem);
+}
+
+aside {
+    height: 100%;
+}
