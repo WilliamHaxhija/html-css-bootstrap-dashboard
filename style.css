@@ -2,12 +2,17 @@
     height: 100vh;
 }
 
+header {
+    min-height: 4.5rem;
+}
+
 .ms-bg-header-row {
     background-color: white;
 }
 
 .ms-logo img:last-child {
     max-width: 3rem;
+    height: 3rem;
 }
 
 .ms-col-size {
@@ -26,6 +31,36 @@
     color: #ff8f00;
 }
 
+.ms-ctn-main-height {
+    height: calc(100vh - 4.5rem);
+    margin-left: -0.8rem;
+}
+
 aside {
+    width: 3.5rem;
+    background-image: url(./img/sidebar-bg.png);
+    background-color: #051e34;
+    color: white;
+}
+
+aside .container,
+aside .row {
     height: 100%;
+}
+
+
+@media screen and (min-width: 992px) {
+    aside {
+        width: 9.375rem;
+    }
+
+    aside i {
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    aside {
+        text-align: center;
+    }
 }
