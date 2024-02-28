@@ -1,6 +1,16 @@
+/*----------------
+     GENERAL
+----------------*/
 .ms-wrapper {
     height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
+
+/*----------------
+     HEADER
+----------------*/
 
 header {
     min-height: 4.5rem;
@@ -31,10 +41,18 @@ header {
     color: #ff8f00;
 }
 
+/*----------------
+      MAIN
+----------------*/
+
 .ms-ctn-main-height {
     height: calc(100vh - 4.5rem);
-    margin-left: -0.8rem;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
+
+/*--- ASIDE ---*/
 
 aside {
     width: 3.5rem;
@@ -48,8 +66,53 @@ aside .row {
     height: 100%;
 }
 
+.ms-bg-badges {
+    background-color: rgba(0,0,0,0.2);
+}
+
+/*--- SECTIONS ---*/
+
+.ms-section-width,
+.ms-wrapper-sections {
+    width: 100%;
+}
+
+section:first-child {
+    color: white;
+}
+
+/*----------------
+       M Q
+----------------*/
+
+/*--- SM >=768 PX ---*/
+
+@media screen and (min-width: 768px) {
+
+    /* Sections */
+
+    .ms-text-alignment {
+        text-align: center;
+    }
+}
+
+/*--- MD 768 < X < 992 PX ---*/
+
+@media screen and (max-width: 991px) {
+
+    /* Aside */
+
+    aside {
+        text-align: center;
+    }
+}
+
+/*--- LG >= 992 PX ---*/
 
 @media screen and (min-width: 992px) {
+
+    /* Aside */
+
     aside {
         width: 9.375rem;
     }
@@ -57,10 +120,20 @@ aside .row {
     aside i {
         margin-left: 1.5rem;
     }
+
+    aside span,
+    aside i {
+        margin-left: 0.7rem;
+    }
 }
 
-@media screen and (max-width: 991px) {
-    aside {
-        text-align: center;
-    }
+/*--- XXL >= 1400 PX ---*/
+
+@media screen and (min-width: 1400px) {
+
+    /* Sections */
+
+ .ms-text-alignment {
+     text-align: end;
+ }    
 }
