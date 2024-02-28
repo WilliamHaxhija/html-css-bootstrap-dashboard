@@ -68,9 +68,11 @@ aside .row {
     height: 100%;
 }
 
-.ms-bg-badges {
-    background-color: rgba(0,0,0,0.2);
+aside a {
+    color: white;
+    text-decoration: none;
 }
+
 
 /*--- SECTIONS ---*/
 
@@ -84,6 +86,11 @@ aside .row {
 section:first-child {
     color: white;
 }
+
+.ms-bg-badges {
+    background-color: rgba(0,0,0,0.2);
+}
+
 
 /* second section */
 
