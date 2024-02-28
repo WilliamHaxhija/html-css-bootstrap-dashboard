@@ -72,6 +72,8 @@ aside .row {
 
 /*--- SECTIONS ---*/
 
+/* first section */
+
 .ms-section-width,
 .ms-wrapper-sections {
     width: 100%;
@@ -80,6 +82,10 @@ aside .row {
 section:first-child {
     color: white;
 }
+
+/* second section */
+
+
 
 /*----------------
        M Q
