@@ -48,7 +48,7 @@ header {
 ----------------*/
 
 .ms-ctn-main-height {
-    height: calc(100vh - 4.5rem);
+    height: calc(100vh - 56px);
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -57,7 +57,7 @@ header {
 /*--- ASIDE ---*/
 
 aside {
-    width: 3.5rem;
+    width: 5.25rem;
     background-image: url(./img/sidebar-bg.png);
     background-color: #051e34;
     color: white;
@@ -122,7 +122,7 @@ section:first-child {
     /* Aside */
 
     aside {
-        width: 9.375rem;
+        width: 12rem;
     }
 
     aside i {
