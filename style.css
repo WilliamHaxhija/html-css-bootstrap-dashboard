@@ -97,7 +97,28 @@ section:first-child {
 
 /* second section */
 
+.ms-table-row {
+    width: 100%;
+}
 
+.table img {
+    max-width: 2rem;
+    margin-right: 0.5rem;
+}
+
+.ms-badge {
+    color: white!important;
+}
+
+table td:first-child {
+    width: 60%;
+    text-align: left;
+}
+
+table button {
+    width: 2.5rem;
+    height: 2.5rem;
+}
 
 /*----------------
        M Q
@@ -111,6 +132,10 @@ section:first-child {
 
     .ms-text-alignment {
         text-align: center;
+    }
+
+    table td:first-child {
+        width: 50%;
     }
 }
 
