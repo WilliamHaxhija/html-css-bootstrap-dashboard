@@ -91,6 +91,9 @@ section:first-child {
     background-color: rgba(0,0,0,0.2);
 }
 
+.ms-offcanvas {
+    width: 55vw!important;
+}
 
 /* second section */
 
@@ -111,7 +114,7 @@ section:first-child {
     }
 }
 
-/*--- MD 768 < X < 992 PX ---*/
+/*--- MD X < 992 PX ---*/
 
 @media screen and (max-width: 991px) {
 
@@ -119,6 +122,12 @@ section:first-child {
 
     aside {
         text-align: center;
+    }
+
+    /* Sectons */
+
+    .ms-offcanvas {
+        width: 100vw!important;
     }
 }
 
