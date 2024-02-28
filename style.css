@@ -3,6 +3,9 @@
 ----------------*/
 .ms-wrapper {
     height: 100vh;
+}
+
+.ms-wrapper-sections {
     overflow-y: auto;
 }
 
@@ -11,7 +14,7 @@
 ----------------*/
 
 header {
-    min-height: 4.5rem;
+    height: 62px;
 }
 
 .ms-bg-header-row {
