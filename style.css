@@ -120,6 +120,10 @@ table button {
     height: 2.5rem;
 }
 
+li input {
+    margin-right: 0.4rem;
+}
+
 /*----------------
        M Q
 ----------------*/
