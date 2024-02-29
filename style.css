@@ -48,8 +48,7 @@ header {
 ----------------*/
 
 .ms-ctn-main-height {
-    height: calc(100vh - 56px);
-    width: 100vw;
+    height: calc(100vh - 62px);
     margin: 0;
     padding: 0;
 }
