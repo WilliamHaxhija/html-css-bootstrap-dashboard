@@ -43,6 +43,12 @@ header {
     color: #ff8f00;
 }
 
+header .fa-solid:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
 /*----------------
       MAIN
 ----------------*/
@@ -71,6 +77,11 @@ aside .row {
 aside a {
     color: white;
     text-decoration: none;
+}
+
+aside .ms-hover:hover {
+    background-color: rgba(255,255,255, 0.4);
+    transition: 0.2s;
 }
 
 
@@ -123,6 +134,13 @@ table button {
 li input {
     margin-right: 0.4rem;
 }
+
+#checkbox-1:hover,
+#checkbox-2:hover,
+#checkbox-3:hover {
+    cursor: pointer;
+}
+
 
 /*----------------
        M Q
